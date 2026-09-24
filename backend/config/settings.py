@@ -70,7 +70,10 @@ ASGI_APPLICATION = 'config.asgi.application'
 
 DATABASE_URL = env('DATABASE_URL', default='sqlite:///db.sqlite3')
 DATABASES = {
-    'default': env.db('DATABASE_URL', default=DATABASE_URL),
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
 }
 
 AUTH_PASSWORD_VALIDATORS = []
