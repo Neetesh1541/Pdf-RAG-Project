@@ -1,0 +1,19 @@
+[
+  {
+    "question": "What is the main objective of the paper?",
+    "expected_answer": "The answer should summarize the paper's primary goal from the uploaded document(s)."
+  },
+  {
+    "question": "Explain the methodology used.",
+    "expected_answer": "The answer should describe the method, pipeline, or experimental procedure.",
+    "tags": ["methodology"]
+  },
+  {
+    "question": "What are the limitations?",
+    "expected_answer": "The answer should identify stated limitations or caveats in the paper."
+  },
+  {
+    "question": "Compare the methodologies used in Paper A and Paper B.",
+    "expected_answer": "The answer should compare the approaches across documents and cite both sources."
+  }
+]
